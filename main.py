@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 import os
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
-SPOTIPY_CLIENT_ID = "bc397dc0a4b94f58bd8581a61c27a1ca"
-SPOTIPY_CLIENT_SECRET = "764c84baaf274ec992b53f22d947dac5"
+SPOTIPY_CLIENT_ID = "[your id]"
+SPOTIPY_CLIENT_SECRET = "[your secret]"
 SPOTIPY_REDIRECT_URI = "https://example.com/callback"
-os.environ["SPOTIPY_CLIENT_ID"] = "bc397dc0a4b94f58bd8581a61c27a1ca"
-os.environ["SPOTIPY_CLIENT_SECRET"] = "764c84baaf274ec992b53f22d947dac5"
+os.environ["SPOTIPY_CLIENT_ID"] = "[client id]"
+os.environ["SPOTIPY_CLIENT_SECRET"] = "[spotify secret]"
 os.environ["SPOTIPY_REDIRECT_URI"] ="https://example.com/callback"
 
 timestamp = input("what time you would like to travel to? (YYY-MM-DD format): ")
